@@ -1,0 +1,10 @@
+--- RctManager.java	2016-08-11 18:43:24.000000000 +0800
++++ RctManager.java.bak	2016-08-11 18:42:54.000000000 +0800
+@@ -59,6 +59,7 @@
+      */
+     public ReactInstanceManager createReactInstanceManager(BaseReactActivity reactActivity) {
+         ReactInstanceManager.Builder builder = ReactInstanceManager.builder()
++                .setUseOldBridge(true)
+                 .setApplication((Application) reactActivity.getApplicationContext())
+                 .setJSMainModuleName(reactActivity.getJSMainModuleName())
+                 .setUseDeveloperSupport(reactActivity.getUseDeveloperSupport())
