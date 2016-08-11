@@ -1,0 +1,7 @@
+* Re-natal & react-native-navigation
+** A problem before start.
+Since there's a bug with react-native-navigation & react-native 0.30.0, use:
+#+BEGIN_SRC shell
+sh apply_patch.sh
+#+END_SRC
+fo fix.
