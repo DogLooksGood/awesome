@@ -6,7 +6,3 @@
 (defn clj->camel-js [m]
   (clj->js (transform-keys cs/->camelCaseString m)))
 
-
-
-
-

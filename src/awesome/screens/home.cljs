@@ -17,5 +17,3 @@
     :title "Home Title"
     :screen :home
     :label "Home Label"}})
-
-
